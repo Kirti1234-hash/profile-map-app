@@ -1,0 +1,167 @@
+/* 🔹 General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #5c5f67, #6f7887);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🔹 Main App Container */
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* 🔹 Header */
+.app-header {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 80%;
+  text-align: center;
+}
+
+/* 🔹 Admin Panel */
+.admin-panel {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* 🔹 Profile List */
+.profile-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+/* 🔹 Profile Card */
+.profile-card {
+  background: white;
+  color: #1E3A8A;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* 🔹 Footer */
+.app-footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.app-container {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#background-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+.map-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  width: 80%;
+  max-width: 500px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.add-profile-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add-profile-btn {
+  background-color: #808080; /* Greyish shade */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-profile-btn:hover {
+  background-color: #6a6a6a;
+}
+.add-profile-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add-profile-btn {
+  background-color: #808080; /* Greyish shade */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-profile-btn:hover {
+  background-color: #6a6a6a;
+}
+
+
+
+
+
